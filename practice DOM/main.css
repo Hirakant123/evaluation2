@@ -1,0 +1,25 @@
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+}
+
+#container>div{
+    border: 1px solid;
+    padding: 20px;
+}
+
+#search-bar{
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+#input1{
+    width:300px;
+}
+
+#select{
+    width:100px;
+    margin: 30px;
+}
